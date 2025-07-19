@@ -9,15 +9,17 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        default: "primary-gradient text-primary-foreground hover:opacity-90 shadow-elegant hover:shadow-hover transition-smooth",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
+          "border border-border bg-background hover:bg-accent hover:text-accent-foreground shadow-elegant",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+          "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-elegant",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        hero: "bg-foreground text-background hover:bg-foreground/90 shadow-elegant hover:shadow-hover transition-smooth",
+        whatsapp: "bg-green-500 text-white hover:bg-green-600 shadow-elegant hover:shadow-hover transition-smooth",
       },
       size: {
         default: "h-10 px-4 py-2",
