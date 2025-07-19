@@ -22,7 +22,7 @@ const FAQ = () => {
       category: "Geral",
       questions: [
         {
-          question: "O que é a Strategic Vista?",
+          question: "O que é a Qualitify?",
           answer: "Somos uma consultoria especializada em análises inteligentes, transformando riscos em oportunidades através de métodos estatísticos robustos e soluções personalizadas para os setores de saúde, seguros, finanças, sustentabilidade e mercado imobiliário."
         },
         {
@@ -133,13 +133,14 @@ const FAQ = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-background to-muted">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 animated-background overflow-hidden">
+        <div className="floating-shapes"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-background mb-6 animate-fade-in-up">
               Perguntas Frequentes
             </h1>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed mb-8">
+            <p className="text-xl text-background/90 max-w-4xl mx-auto leading-relaxed mb-8 animate-fade-in-up animate-delay-200">
               Encontre respostas para as principais dúvidas sobre nossos serviços, 
               metodologias e processo de trabalho.
             </p>

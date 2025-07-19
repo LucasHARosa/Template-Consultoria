@@ -30,7 +30,7 @@ const Navigation = () => {
               <BarChart3 className="h-6 w-6 text-primary-foreground" />
             </div>
             <span className="text-xl font-bold text-foreground">
-              Strategic Vista
+              Qualitify
             </span>
           </Link>
 

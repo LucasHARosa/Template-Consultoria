@@ -107,7 +107,7 @@ const Home = () => {
             <div className="animate-slide-in-right">
               <img 
                 src={heroImage} 
-                alt="Análises inteligentes Strategic Vista"
+                alt="Análises inteligentes Qualitify"
                 className="rounded-2xl shadow-elegant hover-lift w-full"
               />
             </div>

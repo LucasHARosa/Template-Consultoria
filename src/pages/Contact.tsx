@@ -56,8 +56,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "E-mail",
-      description: "contato@strategicvista.com.br",
-      action: "mailto:contato@strategicvista.com.br"
+      description: "contato@qualitify.com.br",
+      action: "mailto:contato@qualitify.com.br"
     },
     {
       icon: Phone,
@@ -110,13 +110,14 @@ const Contact = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-background to-muted">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 animated-background overflow-hidden">
+        <div className="floating-shapes"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-background mb-6 animate-fade-in-up">
               Vamos Conversar
             </h1>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-background/90 max-w-4xl mx-auto leading-relaxed animate-fade-in-up animate-delay-200">
               Entre em contato conosco e descubra como podemos transformar os desafios 
               da sua empresa em oportunidades de crescimento.
             </p>
@@ -261,9 +262,9 @@ const Contact = () => {
               </div>
 
               <div>
-                <h3 className="text-xl font-bold text-foreground mb-6">
-                  Por que Escolher a Strategic Vista?
-                </h3>
+                 <h3 className="text-xl font-bold text-foreground mb-6">
+                   Por que Escolher a Qualitify?
+                 </h3>
                 <div className="space-y-4">
                   {benefits.map((benefit) => (
                     <div key={benefit.title} className="flex items-start space-x-3">

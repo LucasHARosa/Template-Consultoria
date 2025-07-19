@@ -72,13 +72,14 @@ const About = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-background to-muted">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 animated-background overflow-hidden">
+        <div className="floating-shapes"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Sobre a Strategic Vista
+            <h1 className="text-4xl lg:text-5xl font-bold text-background mb-6 animate-fade-in-up">
+              Sobre a Qualitify
             </h1>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-background/90 max-w-4xl mx-auto leading-relaxed animate-fade-in-up animate-delay-200">
               Somos uma consultoria especializada em análises inteligentes, transformando dados 
               complexos em insights estratégicos que geram valor real para nossos clientes.
             </p>

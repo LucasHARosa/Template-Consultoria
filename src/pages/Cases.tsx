@@ -129,7 +129,7 @@ const Cases = () => {
 
   const testimonials = [
     {
-      quote: "A Strategic Vista nos ajudou a navegar pelas complexas regulamentações da ANS com soluções práticas e eficientes.",
+      quote: "A Qualitify nos ajudou a navegar pelas complexas regulamentações da ANS com soluções práticas e eficientes.",
       author: "Diretor Financeiro",
       company: "Operadora de Saúde"
     },
@@ -148,13 +148,14 @@ const Cases = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-background to-muted">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 animated-background overflow-hidden">
+        <div className="floating-shapes"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold text-background mb-6 animate-fade-in-up">
               Cases de Sucesso
             </h1>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-background/90 max-w-4xl mx-auto leading-relaxed animate-fade-in-up animate-delay-200">
               Conheça alguns dos projetos que transformaram desafios em oportunidades 
               de crescimento para nossos clientes.
             </p>
@@ -282,9 +283,9 @@ const Cases = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
               O que Nossos Clientes Dizem
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Depoimentos de quem confia na Strategic Vista para transformar seus negócios
-            </p>
+             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+               Depoimentos de quem confia na Qualitify para transformar seus negócios
+             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
