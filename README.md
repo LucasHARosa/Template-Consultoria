@@ -1,73 +1,174 @@
-# Welcome to your Lovable project
+![GitHub repo size](https://img.shields.io/github/repo-size/LucasHARosa/ConsultoriaLA)
+![GitHub language count](https://img.shields.io/github/languages/count/LucasHARosa/ConsultoriaLA)
+![GitHub top language](https://img.shields.io/github/languages/top/LucasHARosa/ConsultoriaLA)
+![GitHub last commit](https://img.shields.io/github/last-commit/LucasHARosa/ConsultoriaLA)
 
-## Project info
+# ConsultoriaLA – Website Institucional
 
-**URL**: https://lovable.dev/projects/c3b587cc-11a7-49d2-908f-34d0b484a4d0
+Projeto de **website institucional moderno e responsivo** desenvolvido com **React, TypeScript e Vite**, utilizando a biblioteca de componentes **shadcn/ui** e **Tailwind CSS** para um design clean e profissional.
 
-## How can I edit this code?
+O foco deste repositório é servir como **vitrine digital para serviços de consultoria**, oferecendo uma experiência de usuário fluida e performática.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📌 Objetivo do Projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c3b587cc-11a7-49d2-908f-34d0b484a4d0) and start prompting.
+- Apresentar **serviços de consultoria** de forma profissional
+- Proporcionar uma **navegação intuitiva** e responsiva
+- Demonstrar **casos de sucesso** e portfólio
+- Facilitar o **contato com clientes** potenciais
+- Servir como **referência para landing pages** corporativas
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧱 Estrutura do Projeto
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+O projeto utiliza uma organização clara e escalável, separando responsabilidades:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Estrutura de Pastas
 
-Follow these steps:
+```text
+├── src
+│   ├── pages
+│   │   ├── Home.tsx
+│   │   ├── About.tsx
+│   │   ├── Services.tsx
+│   │   ├── Cases.tsx
+│   │   ├── Contact.tsx
+│   │   ├── FAQ.tsx
+│   │   └── NotFound.tsx
+│   │
+│   ├── components
+│   │   ├── Navigation.tsx
+│   │   ├── Footer.tsx
+│   │   ├── WhatsAppFloat.tsx
+│   │   └── ui/
+│   │       └── (shadcn components)
+│   │
+│   ├── hooks
+│   │   ├── use-mobile.tsx
+│   │   └── use-toast.ts
+│   │
+│   └── lib
+│       └── utils.ts
+│
+├── public
+│   └── robots.txt
+│
+└── config files
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🔹 Conceitos aplicados
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Roteamento com React Router DOM
+- Componentização reutilizável
+- Design System com shadcn/ui
+- Responsividade mobile-first
+- SEO otimizado
+- Performance com Vite
+- Integração com WhatsApp
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🚀 Funcionalidades
+
+As principais funcionalidades do projeto incluem:
+
+- 🏠 **Página inicial** apresentando a empresa
+- 💼 **Serviços** detalhados oferecidos
+- 📊 **Cases de sucesso** e portfólio
+- 👥 **Sobre nós** com informações da equipe
+- 📞 **Formulário de contato** integrado
+- ❓ **FAQ** com perguntas frequentes
+- 💬 **Botão flutuante do WhatsApp** para contato rápido
+- 📱 **Design 100% responsivo**
+- ⚡ **Carregamento otimizado**
+
+---
+
+## ▶️ Executando o Projeto
+
+Primeiro, instale as dependências:
+
+```bash
+npm install
+```
+
+Em seguida, inicie o servidor de desenvolvimento:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+O projeto estará disponível em `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Scripts disponíveis
 
-**Use GitHub Codespaces**
+```bash
+# Desenvolvimento
+npm run dev
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Build de produção
+npm run build
 
-## What technologies are used for this project?
+# Preview da build
+npm run preview
 
-This project is built with:
+# Linting
+npm run lint
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🛠️ Tecnologias Utilizadas
 
-Simply open [Lovable](https://lovable.dev/projects/c3b587cc-11a7-49d2-908f-34d0b484a4d0) and click on Share -> Publish.
+- **React 18** – Biblioteca JavaScript para interfaces
+- **TypeScript** – Superset JavaScript com tipagem estática
+- **Vite** – Build tool moderna e rápida
+- **Tailwind CSS** – Framework CSS utility-first
+- **shadcn/ui** – Componentes acessíveis e customizáveis
+- **React Router DOM** – Roteamento para SPA
+- **React Hook Form** – Gerenciamento de formulários
+- **Zod** – Validação de schemas
+- **Lucide React** – Biblioteca de ícones
+- **TanStack Query** – Gerenciamento de estado assíncrono
+- **Recharts** – Biblioteca de gráficos
+- **Sonner** – Sistema de notificações toast
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🚀 Deploy
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Projeto pronto para deploy na **Vercel** ou qualquer plataforma que suporte aplicações React/Vite.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Deploy na Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+### Build de produção
+
+```bash
+npm run build
+```
+
+Os arquivos otimizados estarão na pasta `dist/`
+
+---
+
+## 📚 Referências
+
+- [React Documentation](https://react.dev)
+- [Vite Documentation](https://vitejs.dev)
+- [shadcn/ui](https://ui.shadcn.com)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Vercel Docs](https://vercel.com/docs)
+
+---
+
+<div align="center">
+    
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) 
+
+</div>
