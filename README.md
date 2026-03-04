@@ -1,7 +1,7 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/LucasHARosa/ConsultoriaLA)
-![GitHub language count](https://img.shields.io/github/languages/count/LucasHARosa/ConsultoriaLA)
-![GitHub top language](https://img.shields.io/github/languages/top/LucasHARosa/ConsultoriaLA)
-![GitHub last commit](https://img.shields.io/github/last-commit/LucasHARosa/ConsultoriaLA)
+![GitHub repo size](https://img.shields.io/github/repo-size/LucasHARosa/Template-Consultoria)
+![GitHub language count](https://img.shields.io/github/languages/count/LucasHARosa/Template-Consultoria)
+![GitHub top language](https://img.shields.io/github/languages/top/LucasHARosa/Template-Consultoria)
+![GitHub last commit](https://img.shields.io/github/last-commit/LucasHARosa/Template-Consultoria)
 
 # ConsultoriaLA – Website Institucional
 
