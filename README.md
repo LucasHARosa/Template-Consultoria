@@ -3,7 +3,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/LucasHARosa/Template-Consultoria)
 ![GitHub last commit](https://img.shields.io/github/last-commit/LucasHARosa/Template-Consultoria)
 
-# ConsultoriaLA – Website Institucional
+# Template Consultoria – Website Institucional
 
 Projeto de **website institucional moderno e responsivo** desenvolvido com **React, TypeScript e Vite**, utilizando a biblioteca de componentes **shadcn/ui** e **Tailwind CSS** para um design clean e profissional.
 
